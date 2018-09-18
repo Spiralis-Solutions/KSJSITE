@@ -7,8 +7,9 @@
     </div>
     <div class="pic" v-on:click="navToggle"></div>
     <div class="butts" v-bind:class="navpaneLogic">
-      <button class="About" v-on:click="navToggle(); $router.push('/')">Bio</button>
+      <button class="About" v-on:click="navToggle(); $router.push('/')">About</button>
       <button class="Blog" v-on:click="navToggle(); $router.push('/Blog')">Resume</button>
+      <button class="Portfolio" v-on:click="navToggle(); $router.push('/Portfolio')">Portfolio</button>
       <button class="contact" v-on:click="navToggle(); $router.push('/Contact')">Contact</button>
     </div>
     <div class="titles">
@@ -231,6 +232,7 @@ button {
   opacity: .5;
   font-size: 1.6em;
   font-weight: 300;
+  text-align: center;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 button:hover {
@@ -354,15 +356,16 @@ h2 {
     height: 20vh;
     display: grid;
     grid-template-rows: 5vh;
-    grid-template-columns: 20vw 20vw 20vw;
-    grid-gap: 2vh;
+    grid-template-columns: 12vw 15vw 15vw 15vw;
+    grid-gap: 1vh;
     top: 0;
     margin-top: 17vh;
     margin-left: 29vw;
   }
   button {
-    font-size: 1.3em;
+    font-size: 1em;
     opacity: .7;
+    text-align: center;
   }
 }
 @media (min-width: 1000px) {

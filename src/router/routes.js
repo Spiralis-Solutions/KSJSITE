@@ -2,7 +2,8 @@
 const routes = [
   { path: '', component: () => import('pages/Index.vue') },
   { path: '/Blog', component: () => import('pages/Blog.vue') },
-  { path: '/Contact', component: () => import('pages/Contact.vue') }
+  { path: '/Contact', component: () => import('pages/Contact.vue') },
+  { path: '/Portfolio', component: () => import('pages/Portfolio.vue') }
 ]
 
 // Always leave this as last one
