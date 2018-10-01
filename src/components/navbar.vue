@@ -117,7 +117,7 @@ export default {
 }
 
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background:#000 url(https://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
   opacity: 2;
 }
@@ -130,7 +130,7 @@ export default {
 }
 
 .twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background:transparent url(https://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;

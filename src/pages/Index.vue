@@ -10,7 +10,7 @@
       <p>I prefer to use a custom stack <a href="https://quickvenom.org/">QWC-VENUMM</a> (what this whole site is made in, actually), with my expertise based heavily in VueJS. It allows me to develop quick, efficient Single Page Applications from one codebase and build to all platforms. Making my work lightning fast and responsive.</p>
       <p>My work ranges from Hybrid Web App Development to Machine Learning solutions.
       Welcome to my blog, here you’ll find articles on miscellaneous coding techniques, expertise on Vue.js, As well as links to my online resume and work examples.</p>
-      <p>If you have any questions or inquiries you can <span v-on:click="navToggle(); $router.push('/Contact')"> contact me here.</span></p>
+      <p>If you have any questions or inquiries you can <a class="contact" v-on:click="$router.push('/Contact')"> contact me here.</a></p>
     </div>
   </div>
   </div>
@@ -106,6 +106,9 @@ a {
 }
 span {
   color: cyan;
+}
+.contact {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
